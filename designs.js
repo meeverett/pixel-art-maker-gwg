@@ -5,6 +5,8 @@ var size = $("#sizePicker");// Select size input
 
 size.submit(function makeGrid(event) {
 
+  $('table tr').remove();
+  
   var rows=$('#inputHeight').val();
   var cells=$('#inputWeight').val();
   
