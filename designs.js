@@ -16,6 +16,8 @@ size.submit(function makeGrid(event) {
     }
   }
   
+  event.preventDefault();
+  
 });
 
 // Allows user to select color
